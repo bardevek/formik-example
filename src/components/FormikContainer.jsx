@@ -40,7 +40,7 @@ const FlexContainer = styled.div`
   width: 100%;
   height: 100%;
   background-color: darkgray;
-  overflow: scroll;
+  overflow: auto;
   margin-bottom: 50px;
   align-items: center;
   flex-direction: column;
@@ -61,7 +61,7 @@ const Frame = styled.div`
   display: flex;
   border-radius: 10px;
   justify-content: center;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export { FormikContainer };
